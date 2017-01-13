@@ -1,0 +1,55 @@
+body {
+    width: 800px;
+    margin: auto;
+}
+
+main {
+    width: 740px;
+    text-align: center;
+    border-top: cornflowerblue double thick;
+}
+
+h1,
+h2,
+h3,
+p {
+    color: darkblue;
+    font-family: 'Arsenal', sans-serif;
+}
+
+h1,
+a {
+    text-align: center;
+    width: 800px;
+}
+
+h3 {
+    text-align: center;
+}
+
+article {
+    text-align: justify;
+    width: 600px;
+    margin: auto;
+}
+
+img {
+    float: left;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Arsenal', sans-serif;
+    color: darkslategrey;
+}
+
+
+footer {
+    clear: both;
+    text-align: center;
+}
+
+footer li {
+    display: inline;
+}
