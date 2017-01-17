@@ -1,6 +1,10 @@
-/*most designers start with a css reset: http://meyerweb.com/eric/tools/css/reset/ */
+@charset "UTF-8"
 
-/* *{margin:0;padding:0;} */
+* {
+    margin: 0;
+    padding: 0;
+}
+/*most designers start with a css reset: http://meyerweb.com/eric/tools/css/reset/ */
 
 body {
     width: 800px;
