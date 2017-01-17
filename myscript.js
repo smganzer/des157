@@ -11,12 +11,13 @@ console.log("Shelby's Banner");
 function setup(){
   var myCanvas=createCanvas(800, 250);
   myCanvas.parent('mySketch')
-  background("#000000"); // CHANGE TO MATCH WEBPAGE BACKGROUND COLOR
+  background("#ffffff"); // CHANGE TO MATCH WEBPAGE BACKGROUND COLOR
+  stroke ("#ffffff")
 }
 
 function draw(){
   if(mouseIsPressed){
-    fill("#000000"); // CHANGE TO MATCH WEBPAGE BACKGROUND COLOR
+    fill("#ffffff"); // CHANGE TO MATCH WEBPAGE BACKGROUND COLOR
 
     // ROW 1
     for(var x = 22; x < 800; x = x + 40){
@@ -61,7 +62,7 @@ function draw(){
 
     // INITIAL DOTS
   }else{
-    fill("#ffffff");
+    fill("#000080");
     for(var x = 22; x < 800; x = x + 40){
       for(var y = 45; y < 220; y = y + 40){
         if (x==142 || x==277 || x==412 || x==547 || x==682) // SPACE BETWEEN LETTERS
