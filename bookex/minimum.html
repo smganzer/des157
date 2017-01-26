@@ -1,0 +1,57 @@
+<!--NOTE: Replace all of the uppercase text from glenda with your own custom content-->
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>ch 3 - minimum</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px
+        }
+
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            color: white;
+            background-color: #333;
+            font-size: 11px;
+            margin: 24px;
+        }
+
+        h1 {
+            margin-bottom: 24px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>ch 3 - minimum</h1>
+    <h2>open the console to see the results of the script</h2>
+    <script>
+    // Write a function min that takes two arguments and returns their minimum.
+    function min(num1, num2){
+      // determine which is smaller and set it to the variable "smaller"
+      if (num1>num2){
+        var smaller=num2;
+      }
+      else if (num2>num1){
+        var smaller=num1;
+      }
+      // if the numbers are the same, return "neither"
+      else {
+        var smaller="neither, these numbers are the same"
+      }
+      // return the smaller number
+      return smaller;
+    }
+
+    // call the function from a new variable
+    var test=min(239,239);
+    // print the smaller of the two numbers to the console
+    console.log("minimum: " + test);
+
+
+
+    </script>
+</body>
