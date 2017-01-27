@@ -26,6 +26,10 @@ function processForm(){
   var noun5 = document.inputs.noun5.value;
   var noun6 = document.inputs.noun6.value;
 
+  if (adj1=="" || adj2=="" || adj3=="" || adj4=="" || noun1=="" || noun2=="" || noun3=="" || noun4=="" || noun5=="" || noun6=="" || verb1=="" || verb2=="" || verb3=="" || verb4=="" || verb5=="" || plnoun==""){
+    alert("fill out the form, fool");
+  }
+  else {
 
   // make a variable to hold results text
   // call innerHTML to fill in the <p> for results
@@ -72,6 +76,7 @@ function processForm(){
   //line 14
   var results14 = document.getElementById("results14");
   results14.innerHTML = ("And I love you like " + noun5 + " loves " + noun6);
+}
 
   return false;
 }
