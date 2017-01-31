@@ -31,11 +31,16 @@ article {
     text-align: justify;
     width: 600px;
     margin: auto;
+    padding-bottom: 60px;
 }
 
-img {
+#insta {
     float: left;
     padding: 20px;
+}
+
+.doodle{
+  text-align: center;
 }
 
 a {
