@@ -85,6 +85,7 @@ footer {
 footer a {
     color: #EF4145;
     text-decoration: none;
+    padding: 10px;
 }
 
 footer li {
