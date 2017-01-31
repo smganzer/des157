@@ -69,6 +69,23 @@ p{
   padding: 6px;
 }
 
+footer {
+    clear: both;
+    text-align: center;
+    font-family: 'Exo 2', sans-serif;
+    color: #EF4145;
+    padding-bottom: 40px;
+}
+
+footer a{
+  color: #EF4145;
+  text-decoration: none;
+}
+
+footer li {
+    display: inline;
+}
+
 .hide{
   display: none;
 }
