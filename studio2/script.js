@@ -6,6 +6,9 @@ document.addEventListener("DOMContentLoaded", function(event) {
     console.log("DOM fully loaded and parsed");
 
     document.inputs.onsubmit = processForm;
+    //onreset
+    document.inputs.onreset = resetForm;
+
     // make a function to read the form
     function processForm() {
         // put each input in its own js variable
@@ -75,9 +78,20 @@ document.addEventListener("DOMContentLoaded", function(event) {
             //line 14
             var results14 = document.getElementById("results14");
             results14.innerHTML = ("And I love you like " + noun5 + " loves " + noun6);
+
+
+            results.className = "show";
         }
 
         return false;
+    }
+
+    //define resetForm
+    function resetForm() {
+
+        var results = document.getElementById("results");
+        results.className = "hide";
+
     }
 
 });
