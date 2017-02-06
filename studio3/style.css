@@ -10,19 +10,22 @@
 }
 
 main{
-  background: url("images/background.png");
+  background: url("images/background2.png");
   position: relative;
   width: 1280px;
-  height: 960px;
+  height: 800px;
 }
 
+/* Keith Harring */
+
 #buddies{
-  width: 308px;
-  height: 304px;
+  width: 265px;
+  height: 260px;
   border: 10px solid transparent;
   position: absolute;
-  top: 195px;
-  left: 283px;
+  top: 106px;
+  left: 330px;
+  cursor: default;
 }
 
 #buddyinfo{
@@ -33,6 +36,7 @@ main{
   position: fixed;
   top: 30%;
   display: none;
+  z-index: 1;
 }
 
 #buddycontent{
@@ -48,4 +52,82 @@ main{
   position: fixed;
   right: 400px;
   top: 35%;
+  cursor: default;
+}
+
+/* Woodward */
+
+#woodward{
+  position: absolute;
+  width: 193px;
+  height: 190px;
+  border: 10px solid transparent;
+  top: 96px;
+  left: 630px;
+  cursor: default;
+}
+
+#woodwardinfo{
+  width: 100%;
+  height: 350px;
+  background-color: #f5c000;
+  opacity: .85;
+  position: fixed;
+  top: 25%;
+  display: none;
+  z-index: 1;
+}
+
+#woodwardcontent{
+  width: 600px;
+  height: 400px;
+  margin: auto;
+  margin-top: 50px;
+  font-family: monospace;
+  font-size: 24px;
+}
+
+#closeww{
+  position: fixed;
+  right: 400px;
+  top: 30%;
+  cursor: default;
+}
+
+/* pataloha sticker */
+#pataloha{
+  position: absolute;
+  width: 384px;
+  height: 176px;
+  border: 10px solid transparent;
+  top: 314px;
+  left: 628px;
+  cursor: default;
+}
+
+#patalohainfo{
+  width: 100%;
+  height: 350px;
+  background-color: #515621;
+  opacity: .85;
+  position: fixed;
+  top: 25%;
+  display: none;
+  z-index: 1;
+}
+
+#patalohacontent{
+  width: 600px;
+  height: 400px;
+  margin: auto;
+  margin-top: 50px;
+  font-family: monospace;
+  font-size: 24px;
+}
+
+#closepat{
+  position: fixed;
+  right: 400px;
+  top: 30%;
+  cursor: default;
 }
