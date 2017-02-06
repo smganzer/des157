@@ -67,18 +67,63 @@ document.addEventListener("DOMContentLoaded", function(event) {
     // pataloha sticker
     // create variables
     var pataloha = document.getElementById("pataloha");
+    var patalohainfo = document.getElementById("patalohainfo");
 
     // make outline appear on hover
     pataloha.addEventListener("mouseover", function(){
       pataloha.style.borderColor = "#ecb200";
+      pataloha.style.cursor = "pointer";
     });
 
     pataloha.addEventListener("mouseout", function(){
       pataloha.style.borderColor = "transparent";
     });
 
+    // make content appear when clicked
+    pataloha.addEventListener("click", function(){
+      patalohainfo.style.display = "block";
+    })
 
+    // close the content when the x is clicked
+    closepat.addEventListener("click", function(){
+      patalohainfo.style.display = "none";
+    });
 
+    // change cursor on x hover
+    closepat.addEventListener("mouseover", function(){
+      closepat.style.cursor = "pointer";
+    });
+
+    // almanac beer
+    // creating the variables
+    var beer = document.getElementById("beer");
+    var beerinfo = document.getElementById("beerinfo");
+    var closebeer = document.getElementById("closebeer");
+
+    // make border appear on hover
+    beer.addEventListener("mouseover", function(){
+      beer.style.borderColor = "white";
+      beer.style.cursor = "pointer";
+    });
+
+    beer.addEventListener("mouseout", function(){
+      beer.style.borderColor = "transparent";
+    });
+
+    // make the content appear when clicked
+    beer.addEventListener("click", function(){
+      beerinfo.style.display = "block";
+    });
+
+    // close the banner
+    closebeer.addEventListener("click", function(){
+      beerinfo.style.display = "none";
+    });
+
+    // make pointer cursor when over the x
+    closebeer.addEventListener("mouseover", function(){
+      closebeer.style.cursor = "pointer";
+    })
 
 
 });

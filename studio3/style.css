@@ -108,7 +108,7 @@ main{
 #patalohainfo{
   width: 100%;
   height: 350px;
-  background-color: #515621;
+  background-color: #e8d86b;
   opacity: .85;
   position: fixed;
   top: 25%;
@@ -126,6 +126,46 @@ main{
 }
 
 #closepat{
+  position: fixed;
+  right: 400px;
+  top: 30%;
+  cursor: default;
+}
+
+/* Almanac beer */
+
+#beer{
+  position: absolute;
+  width: 235px;
+  height: 235px;
+  border: 10px solid transparent;
+  border-radius: 50%;
+  top: 393px;
+  left: 355px;
+  cursor: default;
+}
+
+#beerinfo{
+  width: 100%;
+  height: 350px;
+  background-color: #286e6c;
+  opacity: .85;
+  position: fixed;
+  top: 25%;
+  display: none;
+  z-index: 1;
+}
+
+#beercontent{
+  width: 600px;
+  height: 400px;
+  margin: auto;
+  margin-top: 50px;
+  font-family: monospace;
+  font-size: 24px;
+}
+
+#closebeer{
   position: fixed;
   right: 400px;
   top: 30%;
