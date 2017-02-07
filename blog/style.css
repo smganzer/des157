@@ -9,22 +9,18 @@ main {
     border-top: cornflowerblue double thick;
 }
 
-h1,
-h2,
-h3,
-p {
+h1, h2, h3, p {
     color: darkblue;
     font-family: 'Arsenal', sans-serif;
 }
 
-h1,
-a {
+h1, a {
     text-align: center;
     width: 800px;
 }
 
-h3 {
-    text-align: center;
+h2, h3 {
+    text-align: left;
 }
 
 article {
@@ -39,8 +35,8 @@ article {
     padding: 20px;
 }
 
-.doodle{
-  text-align: center;
+.doodle {
+    text-align: center;
 }
 
 a {
@@ -48,7 +44,6 @@ a {
     font-family: 'Arsenal', sans-serif;
     color: darkslategrey;
 }
-
 
 footer {
     clear: both;
