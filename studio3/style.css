@@ -2,6 +2,7 @@
 
 /* CSS Document */
 
+
 /* start all css with a reset */
 
 * {
@@ -9,165 +10,152 @@
     padding: 0px
 }
 
-main{
-  background: url("images/background2.png");
+main {
+    background: url("images/background2.png");
+    position: relative;
+    width: 1280px;
+    height: 800px;
+}
+
+#title{
+  font-family: monospace;
   position: relative;
-  width: 1280px;
-  height: 800px;
+  width: 33%;
+  height: 200px;
+  top: 50px;
+  left: 33%;
+  text-align: center;
 }
 
-/* Keith Harring */
-
-#buddies{
-  width: 265px;
-  height: 260px;
-  border: 10px solid transparent;
-  position: absolute;
-  top: 106px;
-  left: 330px;
-  cursor: default;
+.content {
+    width: 600px;
+    height: 400px;
+    margin: auto;
+    margin-top: 50px;
+    font-family: monospace;
+    font-size: 24px;
 }
 
-#buddyinfo{
-  width: 100%;
-  height: 300px;
-  background-color: #6eba97;
-  opacity: .85;
-  position: fixed;
-  top: 30%;
-  display: none;
-  z-index: 1;
+.close {
+    position: fixed;
+    right: 400px;
+    top: 30%;
+    cursor: default;
 }
 
-#buddycontent{
-  width: 600px;
-  height: 400px;
-  margin: auto;
-  margin-top: 50px;
-  font-family: monospace;
-  font-size: 24px;
+.info {
+    width: 100%;
+    height: 350px;
+    opacity: 0.9;
+    position: fixed;
+    top: 25%;
+    z-index: 1;
 }
 
-#closebuddy{
-  position: fixed;
-  right: 400px;
-  top: 35%;
-  cursor: default;
+/* KEITH HARING */
+
+#buddies {
+    width: 265px;
+    height: 260px;
+    border: 10px solid transparent;
+    position: absolute;
+    top: 106px;
+    left: 330px;
+    cursor: default;
 }
 
-/* Woodward */
-
-#woodward{
-  position: absolute;
-  width: 193px;
-  height: 190px;
-  border: 10px solid transparent;
-  top: 96px;
-  left: 630px;
-  cursor: default;
+#buddyinfo {
+    background-color: #6eba97;
+    display: none;
 }
 
-#woodwardinfo{
-  width: 100%;
-  height: 350px;
-  background-color: #f5c000;
-  opacity: .85;
-  position: fixed;
-  top: 25%;
-  display: none;
-  z-index: 1;
+/* WOODWARD */
+
+#woodward {
+    position: absolute;
+    width: 193px;
+    height: 190px;
+    border: 10px solid transparent;
+    top: 96px;
+    left: 630px;
+    cursor: default;
 }
 
-#woodwardcontent{
-  width: 600px;
-  height: 400px;
-  margin: auto;
-  margin-top: 50px;
-  font-family: monospace;
-  font-size: 24px;
+#woodwardinfo {
+    background-color: #f5c000;
+    display: none;
 }
 
-#closeww{
-  position: fixed;
-  right: 400px;
-  top: 30%;
-  cursor: default;
+/* PATALOHA */
+
+#pataloha {
+    position: absolute;
+    width: 384px;
+    height: 176px;
+    border: 10px solid transparent;
+    top: 314px;
+    left: 628px;
+    cursor: default;
 }
 
-/* pataloha sticker */
-#pataloha{
-  position: absolute;
-  width: 384px;
-  height: 176px;
-  border: 10px solid transparent;
-  top: 314px;
-  left: 628px;
-  cursor: default;
+#patalohainfo {
+    background-color: #e8d86b;
+    display: none;
 }
 
-#patalohainfo{
-  width: 100%;
-  height: 350px;
-  background-color: #e8d86b;
-  opacity: .85;
-  position: fixed;
-  top: 25%;
-  display: none;
-  z-index: 1;
+/* ALMANAC */
+
+#beer {
+    position: absolute;
+    width: 235px;
+    height: 235px;
+    border: 10px solid transparent;
+    border-radius: 50%;
+    top: 393px;
+    left: 355px;
+    cursor: default;
 }
 
-#patalohacontent{
-  width: 600px;
-  height: 400px;
-  margin: auto;
-  margin-top: 50px;
-  font-family: monospace;
-  font-size: 24px;
+#beerinfo {
+    background-color: #286e6c;
+    display: none;
 }
 
-#closepat{
-  position: fixed;
-  right: 400px;
-  top: 30%;
-  cursor: default;
+
+/* TAHOE */
+
+#tahoe {
+    position: absolute;
+    width: 261px;
+    height: 157px;
+    border: 10px solid transparent;
+    top: 520px;
+    left: 612px;
+    cursor: default;
 }
 
-/* Almanac beer */
-
-#beer{
-  position: absolute;
-  width: 235px;
-  height: 235px;
-  border: 10px solid transparent;
-  border-radius: 50%;
-  top: 393px;
-  left: 355px;
-  cursor: default;
+#tahoeinfo {
+    background-color: #0074c3;
+    display: none;
 }
 
-#beerinfo{
-  width: 100%;
-  height: 350px;
-  background-color: #286e6c;
-  opacity: .85;
-  position: fixed;
-  top: 25%;
-  display: none;
-  z-index: 1;
+footer {
+    text-align: center;
+    font-family: monospace;
+    font-size: 14px;
+    color: black;
+    position: absolute;
+    width: 20%;
+    bottom: 20px;
+    left: 40%;
 }
 
-#beercontent{
-  width: 600px;
-  height: 400px;
-  margin: auto;
-  margin-top: 50px;
-  font-family: monospace;
-  font-size: 24px;
+footer a {
+    color: black;
+    text-decoration: none;
+    padding: 10px;
 }
 
-#closebeer{
-  position: fixed;
-  right: 400px;
-  top: 30%;
-  cursor: default;
+footer li {
+    display: inline;
 }

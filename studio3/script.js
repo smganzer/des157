@@ -2,15 +2,16 @@
 
 document.addEventListener("DOMContentLoaded", function(event) {
     console.log("DOM fully loaded and parsed");
-    // for the keith harring sticker
-    //creating variables
+
+    // KEITH HARING STICKER
+    // creating variables
     var buddies = document.getElementById("buddies");
     var buddyinfo = document.getElementById("buddyinfo");
     var closebuddy = document.getElementById("closebuddy");
 
-    // add border when hovered
+    // border when hovered
     buddies.addEventListener("mouseover", function(){
-      buddies.style.borderColor = "#f45413";
+      buddies.style.borderColor = "#a882c2";
       buddies.style.cursor = "pointer";
     });
 
@@ -28,18 +29,18 @@ document.addEventListener("DOMContentLoaded", function(event) {
       buddyinfo.style.display = "none";
     });
 
-    // change the cursor when it goes over the x
+    // change the cursor when it hovers the x
     closebuddy.addEventListener("mouseover", function(){
       closebuddy.style.cursor = "pointer";
     });
 
-    // for the woodward sticker
+    // WOODWARD STICKER
     // creating variables
     var woodward = document.getElementById("woodward");
     var woodwardinfo = document.getElementById("woodwardinfo");
     var closeww = document.getElementById("closeww");
 
-    // border on hover
+    // border when hovered
     woodward.addEventListener("mouseover", function(){
       woodward.style.borderColor = "black";
       woodward.style.cursor = "pointer";
@@ -49,7 +50,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
       woodward.style.borderColor = "transparent";
     });
 
-    // make content appear when clicked
+    // show the content when clicked
     woodward.addEventListener("click", function(){
       woodwardinfo.style.display = "block";
     });
@@ -59,17 +60,17 @@ document.addEventListener("DOMContentLoaded", function(event) {
       woodwardinfo.style.display = "none";
     });
 
-    // change cursor on x hover
+    // change the cursor when it hovers the x
     closeww.addEventListener("mouseover", function(){
       closeww.style.cursor = "pointer";
     });
 
-    // pataloha sticker
-    // create variables
+    // PATALOHA STICKER
+    // creating variables
     var pataloha = document.getElementById("pataloha");
     var patalohainfo = document.getElementById("patalohainfo");
 
-    // make outline appear on hover
+    // border when hovered
     pataloha.addEventListener("mouseover", function(){
       pataloha.style.borderColor = "#ecb200";
       pataloha.style.cursor = "pointer";
@@ -79,7 +80,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
       pataloha.style.borderColor = "transparent";
     });
 
-    // make content appear when clicked
+    // show the content when clicked
     pataloha.addEventListener("click", function(){
       patalohainfo.style.display = "block";
     })
@@ -89,18 +90,18 @@ document.addEventListener("DOMContentLoaded", function(event) {
       patalohainfo.style.display = "none";
     });
 
-    // change cursor on x hover
+    // change the cursor when it hovers the x
     closepat.addEventListener("mouseover", function(){
       closepat.style.cursor = "pointer";
     });
 
-    // almanac beer
-    // creating the variables
+    // ALMANAC BEER STICKER
+    // creating variables
     var beer = document.getElementById("beer");
     var beerinfo = document.getElementById("beerinfo");
     var closebeer = document.getElementById("closebeer");
 
-    // make border appear on hover
+    // border when hovered
     beer.addEventListener("mouseover", function(){
       beer.style.borderColor = "white";
       beer.style.cursor = "pointer";
@@ -110,20 +111,51 @@ document.addEventListener("DOMContentLoaded", function(event) {
       beer.style.borderColor = "transparent";
     });
 
-    // make the content appear when clicked
+    // show the content when clicked
     beer.addEventListener("click", function(){
       beerinfo.style.display = "block";
     });
 
-    // close the banner
+    // close the content when the x is clicked
     closebeer.addEventListener("click", function(){
       beerinfo.style.display = "none";
     });
 
-    // make pointer cursor when over the x
+    // change the cursor when it hovers the x
     closebeer.addEventListener("mouseover", function(){
       closebeer.style.cursor = "pointer";
-    })
+    });
+
+    // TAHOE STICKER
+    // creating variables
+    var tahoe = document.getElementById("tahoe");
+    var tahoeinfo = document.getElementById("tahoeinfo");
+    var closetahoe = document.getElementById("closetahoe");
+
+    // border when hovered
+    tahoe.addEventListener("mouseover", function(){
+      tahoe.style.borderColor = "#0074c3";
+      tahoe.style.cursor = "pointer";
+    });
+
+    tahoe.addEventListener("mouseout", function(){
+      tahoe.style.borderColor = "transparent";
+    });
+
+    // show the content when clicked
+    tahoe.addEventListener("click", function(){
+      tahoeinfo.style.display = "block";
+    });
+
+    // close the content when the x is clicked
+    closetahoe.addEventListener("click", function(){
+      tahoeinfo.style.display = "none";
+    });
+
+    // change the cursor when it hovers the x
+    closetahoe.addEventListener("mouseover", function(){
+      closetahoe.style.cursor = "pointer";
+    });
 
 
 });
