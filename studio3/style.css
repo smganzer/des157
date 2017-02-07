@@ -17,14 +17,14 @@ main {
     height: 800px;
 }
 
-#title{
-  font-family: monospace;
-  position: relative;
-  width: 33%;
-  height: 200px;
-  top: 50px;
-  left: 33%;
-  text-align: center;
+#title {
+    font-family: monospace;
+    position: relative;
+    width: 33%;
+    height: 200px;
+    top: 50px;
+    left: 33%;
+    text-align: center;
 }
 
 .content {
@@ -52,6 +52,7 @@ main {
     z-index: 1;
 }
 
+
 /* KEITH HARING */
 
 #buddies {
@@ -68,6 +69,7 @@ main {
     background-color: #6eba97;
     display: none;
 }
+
 
 /* WOODWARD */
 
@@ -86,6 +88,7 @@ main {
     display: none;
 }
 
+
 /* PATALOHA */
 
 #pataloha {
@@ -102,6 +105,7 @@ main {
     background-color: #e8d86b;
     display: none;
 }
+
 
 /* ALMANAC */
 
