@@ -52,6 +52,12 @@ main {
     z-index: 1;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+
+}
+
 
 /* KEITH HARING */
 
