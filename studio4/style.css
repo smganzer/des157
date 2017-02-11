@@ -23,6 +23,10 @@ h2{
   font-size: 30px;
 }
 
+.hide{
+  display: none;
+}
+
 h1, h2{
   padding-top: 10px;
   text-align: center;
