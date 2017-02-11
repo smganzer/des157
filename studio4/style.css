@@ -24,7 +24,7 @@ h2{
 }
 
 h1, h2{
-  padding-top: 20px;
+  padding-top: 10px;
   text-align: center;
   cursor: default;
 }
@@ -89,4 +89,25 @@ h1, h2{
 
 #comment{
   opacity: 0;
+}
+
+footer {
+    text-align: center;
+    font-family: monospace;
+    font-size: 14px;
+    color: #ec499b;
+    position: absolute;
+    width: 20%;
+    bottom: 20px;
+    left: 40%;
+}
+
+footer a {
+    color: #ec499b;
+    text-decoration: none;
+    padding: 10px;
+}
+
+footer li {
+    display: inline;
 }

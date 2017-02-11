@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
     var name = document.getElementById("name");
     var names = ["Donald Trump", "Michelle Obama", "Spongebob", "Tomi Lahren", "The Bachelor", "Paul Rand", "Abe Lincoln", "Betsy Devos", "Drake"];
-    var comments = ["(you're gonna regret that one)", "(what a lucky soul you are)", "(date at the Krusty Krab?)", "(I'd cancel on her if I were you)", "(meet him in the overnight suite)", "(the legend himself)", "(better not go to a show)", "(maybe go on an educational date?)", "(hold on girl you're going home with Drake)"];
+    var comments = ["(you're gonna regret that one)", "(what a lucky soul you are)", "(date at the Krusty Krab?)", "(I'd cancel on her if I were you)", "(meet him in the overnight suite)", "(the legend himself)", "(better not go to a show)", "(maybe go on an educational date?)", "(hold on girl you're going home)"];
 
     var snd = new Audio("sparkle.mp3");
 
