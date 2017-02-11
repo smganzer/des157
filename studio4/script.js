@@ -13,6 +13,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
     // check for mouseover to set opacity to 1
     valentine.addEventListener("mouseover", function() {
         instructTimer = setTimeout(showInstruct, 1000);
+        valentine.style.cursor = "pointer";
     });
 
     // check for mouseout to set opacity to 0 again
@@ -29,7 +30,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
     // make array of images and corresponding tool tips
     var people = ["images/trump.png", "images/michelle.png", "images/spongebob.png", "images/tomi.png", "images/nick.png", "images/paulrand.png", "images/abe.png", "images/devos.png", "images/drake.png"];
-    var tip = ["yikes!", "those arms tho", "how fun!", "cute snowflake", "will you accept this rose?", "nice one!", "what a guy", "watch for bears", "1(800)hotline-babe"];
+    var tip = ["you're fired!", "those arms tho", "how fun!", "cute snowflake", "accept this rose?", "nice one!", "what a guy", "watch for bears", "1(800)hotline-babe"];
 
     // variables for original heart, tooltip and if the image has appeared yet
     var heart = document.getElementById("heart");
@@ -39,7 +40,10 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
     var name = document.getElementById("name");
     var names = ["Donald Trump", "Michelle Obama", "Spongebob", "Tomi Lahren", "The Bachelor", "Paul Rand", "Abe Lincoln", "Betsy Devos", "Drake"];
-    var comments = ["(you're gonna regret that one)", "(what a lucky soul you are)", "(date at the Krusty Krab?)", "(I'd cancel on her if I were you)", "(meet him in the overnight suite)", "(the legend himself)", "(probably best to go somewhere other than a show)", "(maybe go on an educational date?)", "(hold on girl you're going home with Drake)"];
+    var comments = ["(you're gonna regret that one)", "(what a lucky soul you are)", "(date at the Krusty Krab?)", "(I'd cancel on her if I were you)", "(meet him in the overnight suite)", "(the legend himself)", "(better not go to a show)", "(maybe go on an educational date?)", "(hold on girl you're going home with Drake)"];
+
+    var snd = new Audio("sparkle.mp3");
+
 
     heart.addEventListener("click", function() {
         i = Math.floor(Math.random() * 9);
@@ -48,17 +52,20 @@ document.addEventListener("DOMContentLoaded", function(event) {
         tipTimer = setTimeout(showToolTip, 1000);
         name.innerHTML = names[i];
         name.style.opacity = 1;
+        snd.play();
     });
 
     var tipTimer;
     heart.addEventListener("mouseover", function() {
+        heart.style.cursor = "pointer";
         if (open) {
             tipTimer = setTimeout(showToolTip, 2000);
         }
     });
+
     heart.addEventListener("mouseout", function() {
-        clearTimeout(tipTimer);
-        tooltip.style.opacity = 0;
+          clearTimeout(tipTimer);
+          tooltip.style.opacity = 0;
     });
 
     function showToolTip() {
@@ -66,11 +73,14 @@ document.addEventListener("DOMContentLoaded", function(event) {
         tooltip.style.opacity = 1;
     }
 
+    // comment below name
+
     var comment = document.getElementById("comment");
     var commentTimer;
     name.addEventListener("mouseover", function() {
         if (open) {
             commentTimer = setTimeout(showComment, 1000);
+            name.style.cursor = "pointer";
         }
     });
 
