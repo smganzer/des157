@@ -3,26 +3,24 @@
 document.addEventListener("DOMContentLoaded", function(event) {
     console.log("DOM fully loaded and parsed");
 
-
-
     // variables used to make tool tip appear when title is hovered
     var valentine = document.getElementById("valentine");
     var instruct = document.getElementById("instruct");
     var instructTimer;
 
-    // check for mouseover to set opacity to 1
+    // check for mouseover on title
     valentine.addEventListener("mouseover", function() {
         instructTimer = setTimeout(showInstruct, 1000);
         valentine.style.cursor = "pointer";
     });
 
-    // check for mouseout to set opacity to 0 again
+    // check for mouseout on title
     valentine.addEventListener("mouseout", function() {
         clearTimeout(instructTimer);
         instruct.style.opacity = 0;
     });
 
-    // funtion used to set opacity to 1
+    // funtion used to make instructions appear
     function showInstruct() {
         instruct.style.opacity = 1;
     };
@@ -38,13 +36,18 @@ document.addEventListener("DOMContentLoaded", function(event) {
     var open = false;
     var i;
 
+    // variables used to show name of who you got and a comment about it
     var name = document.getElementById("name");
     var names = ["Donald Trump", "Michelle Obama", "Spongebob", "Tomi Lahren", "The Bachelor", "Paul Rand", "Abe Lincoln", "Betsy Devos", "Drake"];
     var comments = ["(you're gonna regret that one)", "(what a lucky soul you are)", "(date at the Krusty Krab?)", "(I'd cancel on her if I were you)", "(meet him in the overnight suite)", "(the legend himself)", "(better not go to a show)", "(maybe go on an educational date?)", "(hold on girl you're going home)"];
 
+    // variable used for audio when click happens
     var snd = new Audio("sparkle.mp3");
 
+    // timer variable for tooltip on heart
+    var tipTimer;
 
+    // when heart is clicked: random image/tooltip/name combo, also make sound
     heart.addEventListener("click", function() {
         i = Math.floor(Math.random() * 9);
         heart.src = people[i];
@@ -55,7 +58,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
         snd.play();
     });
 
-    var tipTimer;
+    // when mouse over, change the cursor and set timer
     heart.addEventListener("mouseover", function() {
         heart.style.cursor = "pointer";
         if (open) {
@@ -63,20 +66,23 @@ document.addEventListener("DOMContentLoaded", function(event) {
         }
     });
 
+    // when mouseout, clear timer and hide tooltip
     heart.addEventListener("mouseout", function() {
-          clearTimeout(tipTimer);
-          tooltip.style.opacity = 0;
+        clearTimeout(tipTimer);
+        tooltip.style.opacity = 0;
     });
 
+    // function used to show tooltip and fill in text
     function showToolTip() {
         tooltip.innerHTML = tip[i];
         tooltip.style.opacity = 1;
     }
 
-    // comment below name
-
+    // comment below name and its timer
     var comment = document.getElementById("comment");
     var commentTimer;
+
+    // when name is hovered, start a timer and change cursor
     name.addEventListener("mouseover", function() {
         if (open) {
             commentTimer = setTimeout(showComment, 1000);
@@ -84,11 +90,13 @@ document.addEventListener("DOMContentLoaded", function(event) {
         }
     });
 
+    // when mouse off name, clear timer and remove comment
     name.addEventListener("mouseout", function() {
         clearTimeout(commentTimer);
         comment.style.opacity = 0;
     })
 
+    // function to make comment appear and give it its text
     function showComment() {
         console.log("i is:" + i);
         comment.innerHTML = comments[i];

@@ -2,6 +2,7 @@
 
 /* CSS Document */
 
+
 /* start all css with a reset */
 
 * {
@@ -9,90 +10,90 @@
     padding: 0px
 }
 
-body{
-  font-family: courier;
-  background: url("images/background.png");
-  color: #ec499b;
+body {
+    font-family: courier;
+    background: url("images/background.png");
+    color: #ec499b;
 }
 
-h1{
-  font-size: 60px;
+h1 {
+    font-size: 60px;
 }
 
-h2{
-  font-size: 30px;
+h2 {
+    font-size: 30px;
 }
 
-.hide{
-  display: none;
+.hide {
+    display: none;
 }
 
-h1, h2{
-  padding-top: 10px;
-  text-align: center;
-  cursor: default;
+h1, h2 {
+    padding-top: 10px;
+    text-align: center;
+    cursor: default;
 }
 
-#instruct{
-  opacity: 0;
+#instruct {
+    opacity: 0;
 }
 
-#image{
-  padding-top: 20px;
-  width: 300px;
-  height: 250px;
-  margin: auto;
+#image {
+    padding-top: 20px;
+    width: 300px;
+    height: 250px;
+    margin: auto;
 }
 
-#heart{
-  cursor: default;
+#heart {
+    cursor: default;
 }
 
-#tooltipsection{
-  width: 300px;
-  height: 50px;
-  margin:auto;
-  margin-top: 10px;
+#tooltipsection {
+    width: 300px;
+    height: 50px;
+    margin: auto;
+    margin-top: 10px;
 }
 
-#tooltip{
-  position:absolute;
-  width: 250px;
-  padding:10px;
-  border-radius:20px;
-  font-size:20px;
-  background-color: white;
-  border: 3px dotted #edb4eb;
-  opacity:0;
-  text-align: center;
-  margin: auto;
+#tooltip {
+    position: absolute;
+    width: 250px;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 20px;
+    background-color: white;
+    border: 3px dotted #edb4eb;
+    opacity: 0;
+    text-align: center;
+    margin: auto;
 }
 
-#whoyouget{
-  width: 400px;
-  height: 100px;
-  border-radius:20px;
-  border: 3px dotted #edb4eb;
-  background-color: white;
-  margin: auto;
-  margin-top: 10px;
-  text-align: center;
+#whoyouget {
+    width: 400px;
+    height: 100px;
+    border-radius: 20px;
+    border: 3px dotted #edb4eb;
+    background-color: white;
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
 }
 
-#title{
-  font-size: 24px;
-  padding-top: 7px;
+#title {
+    font-size: 24px;
+    padding-top: 7px;
 }
 
-#name{
-  font-size: 30px;
-  padding-bottom: 5px;
-  opacity: 0;
-  cursor: default;
+#name {
+    font-size: 30px;
+    padding-bottom: 5px;
+    opacity: 0;
+    cursor: default;
 }
 
-#comment{
-  opacity: 0;
+#comment {
+    opacity: 0;
 }
 
 footer {
