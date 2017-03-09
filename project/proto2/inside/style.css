@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
+/* start all css with a reset */
+
+* {
+    margin: 0px;
+    padding: 0px
+}
+body{
+  width: 980px;
+  background-image: url("background.png");
+  font-family: verdana;
+}
+
+nav{
+  width: 980px;
+  font-size: 35px;
+  position: absolute;
+  top: 70px;
+}
+
+nav a{
+  text-decoration: none;
+  color: black;
+}
+
+#home{
+  position: absolute;
+  left: 70px;
+}
+#positivity{
+  position: absolute;
+  top: 90px;
+  left: 70px;
+}
+#bullyBasics{
+  position: absolute;
+  right: 70px;
+  top: 90px;
+}
+#report{
+  position: absolute;
+  right: 70px;
+}
+
+h1{
+  position: absolute;
+  font-size:80px;
+  width: 800px;
+  text-align: center;
+  top: 700px;
+  left: 90px;
+}
+
+#blurb{
+  position: absolute;
+  width: 500px;
+  font-size: 50px;
+  text-align: center;
+  left: 240px;
+  top: 950px;
+  padding-top: 30px;
+  border-top: solid black 4px;
+}
