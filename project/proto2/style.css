@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
+/* start all css with a reset */
+
+* {
+    margin: 0px;
+    padding: 0px
+}
+
+body{
+  font-family: verdana;
+  background-image: url("background.png");
+  width: 100%;
+  background-repeat: no-repeat;
+}
+
+h1{
+  text-align:center;
+  width: 80%;
+  padding: 80px;
+  font-size: 90px;
+  margin: auto;
+  color: grey;
+}
+
+a{
+  color: black;
+  font-family: verdana;
+  text-decoration: none;
+  position: absolute;
+  text-align: center;
+  font-size: 70px;
+}
+
+#login{
+  right: 130px;
+  top: 480px;
+}
+
+#signup{
+  top: 960px;
+  left: 100px;
+}
+
+#bullyBasics{
+  bottom: 160px;
+  right: 110px;
+}
