@@ -17,12 +17,16 @@
         </nav>
     </section>
 
-    <div id="login-screen" class="show">
+    <button id="login">login here</button>
+
+    <p id="namespace" class="hide">hi</p>
+
+    <div id="login-screen">
+      <div id="close-screen" class="close">&otimes;</div>
+
         <h1>login</h1>
 
-        <form id="login-form">
-
-
+        <form name="inputs" id="login-form">
 
             <div>
                 <label>username:</label>
@@ -39,10 +43,10 @@
                 <input type="number" name="code">
             </div>
 
-            <input type="reset" value="reset">
             <input type="submit" value="submit">
 
         </form>
+
         <a href="#" id="forgot">I forgot my password/username/school ID</a>
 
     </div>

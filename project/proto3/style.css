@@ -11,19 +11,18 @@
 }
 
 body {
-  font-family: verdana;
-  background-image: url("background.png");
-  width: 100%;
-  background-repeat: no-repeat;
+    font-family: verdana;
+    background-image: url("background.png");
+    width: 100%;
+    background-repeat: no-repeat;
 }
 
 nav {
-    width: 100%;
     font-size: 50px;
     position: absolute;
     top: 160px;
     display: inline;
-    left: 70px;
+    padding-left: 70px;
     z-index: 0;
 }
 
@@ -41,6 +40,26 @@ nav a {
     margin-left: 190px;
 }
 
+#login {
+    background-color: white;
+    color: #4ca1af;
+    position: absolute;
+    top: 300px;
+    left: 60px;
+    font-size: 30px;
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+#namespace {
+    position: absolute;
+    top: 300px;
+    left: 80px;
+    font-size: 40px;
+    color: white;
+}
+
 #login-screen {
     width: 90%;
     margin: 5%;
@@ -51,42 +70,49 @@ nav a {
     z-index: 1;
     top: 400px;
     color: #4ca1af;
+    opacity: 0;
 }
 
-h1{
-  text-align: center;
-  font-size: 60px;
-  margin-top: 40px;
+.close {
+    position: absolute;
+    font-size: 70px;
+    left: 800px;
 }
 
-#login-form{
-  font-size: 45px;
-  width: 80%;
-  margin-left: 10%;
-  margin-top: 70px;
+h1 {
+    text-align: center;
+    font-size: 60px;
+    margin-top: 40px;
 }
 
-#forgot{
-  position: absolute;
-  width: 80%;
-  margin-left: 10%;
-  text-align: center;
-  color: grey;
-  font-size: 30px;
-  margin-top: 50px;
+#login-form {
+    font-size: 45px;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 70px;
 }
 
-input[type=number]{
-  width: 300px;
-  height: 60px;
-  padding: 4px;
-  margin: 10px 0;
-  box-sizing: border-box;
-  border: none;
-  border-bottom: 4px solid #4ca1af;
-  color: black;
-  outline: none;
-  font-size: 40px;
+#forgot {
+    position: absolute;
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+    color: grey;
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+input[type=number] {
+    width: 300px;
+    height: 60px;
+    padding: 4px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 4px solid #4ca1af;
+    color: black;
+    outline: none;
+    font-size: 40px;
 }
 
 input[type=text] {
