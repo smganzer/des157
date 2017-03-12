@@ -1,0 +1,155 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
+
+/* start all css with a reset */
+
+* {
+    margin: 0px;
+    padding: 0px
+}
+
+body {
+    width: 980px;
+    height: 2000px;
+    margin: auto;
+    background-image: url("background.png");
+    background-repeat: no-repeat;
+    font-family: verdana;
+}
+nav{
+  width: 980px;
+  font-size: 35px;
+  position: absolute;
+  top: 70px;
+}
+
+nav a{
+  text-decoration: none;
+  color: black;
+}
+
+#home{
+  position: absolute;
+  left: 70px;
+}
+#positivity{
+  position: absolute;
+  top: 90px;
+  left: 70px;
+}
+#bullyBasics{
+  position: absolute;
+  right: 70px;
+  top: 90px;
+}
+#report{
+  position: absolute;
+  right: 70px;
+}
+
+h1{
+  position: absolute;
+  font-size:80px;
+  width: 800px;
+  text-align: center;
+  top: 600px;
+  left: 90px;
+}
+
+p{
+  font-size: 30px;
+  position: absolute;
+  width: 800px;
+  left: 90px;
+}
+
+#blurb{
+  top: 700px;
+}
+
+#thankyou{
+  position: absolute;
+  top: 830px;
+  color: #ff8383;
+}
+
+form {
+    width: 800px;
+    position: absolute;
+    left: 90px;
+    text-align: left;
+    font-size: 40px;
+    top: 900px;
+}
+
+input[type=text] {
+    width: 800px;
+    height: 60px;
+    padding: 4px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 4px solid #ff8383;
+    background-color: #ffb5b5;
+    color: black;
+    outline: none;
+    font-size: 40px;
+}
+
+input[type=text]:focus {
+    border: 6px solid #ff8383;
+    font-size: 40px;
+}
+
+input[type=submit], input[type=reset] {
+    background-color: #ffbe55;
+    border-bottom: solid 3px grey;
+    border-right: solid 3px grey;
+    color: white;
+    padding: 20px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 50px;
+    margin-top: 30px;
+}
+
+div#results {
+    width: 340px;
+    float: left;
+    color: #EF4145;
+    text-align: center;
+}
+
+p {
+    padding: 6px;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    font-family: 'Exo 2', sans-serif;
+    color: #EF4145;
+    padding-bottom: 40px;
+}
+
+footer a {
+    color: #EF4145;
+    text-decoration: none;
+    padding: 10px;
+}
+
+footer li {
+    display: inline;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}

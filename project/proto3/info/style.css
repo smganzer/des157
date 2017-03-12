@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
+/* start all css with a reset */
+
+* {
+    margin: 0px;
+    padding: 0px
+}
+body{
+  width: 980px;
+  background-image: url("background.png");
+  background-repeat: no-repeat;
+
+  font-family: verdana;
+}
+
+nav{
+  width: 980px;
+  font-size: 35px;
+  position: absolute;
+  top: 70px;
+}
+
+nav a{
+  text-decoration: none;
+  color: black;
+}
+
+#home{
+  position: absolute;
+  left: 70px;
+}
+#positivity{
+  position: absolute;
+  top: 90px;
+  left: 70px;
+}
+#bullyBasics{
+  position: absolute;
+  right: 70px;
+  top: 90px;
+}
+#report{
+  position: absolute;
+  right: 70px;
+}
+
+h1{
+  position: absolute;
+  font-size:80px;
+  width: 800px;
+  text-align: center;
+  top: 600px;
+  left: 90px;
+}
+
+#questions{
+  position: relative;
+  width: 800px;
+  font-size: 50px;
+  left: 90px;
+  top: 750px;
+  padding-top: 50px;
+  border-top: solid black 4px;
+}
+
+#questions a{
+    text-decoration: none;
+    color: #ff8383;
+}
+
+#answers{
+  font-size: 30px;
+  width: 800px;
+  left: 90px;
+  top: 1350px;
+  position: absolute;
+  bottom: 80px;
+}
+
+#answers ul{
+  position: relative;
+  padding-left: 50px;
+  font-weight: bold;
+}
+
+article{
+  padding-bottom: 50px;
+}
