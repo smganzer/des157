@@ -1,91 +1,87 @@
-@charset "UTF-8";
-
-/* CSS Document */
-
-/* start all css with a reset */
-
 * {
     margin: 0px;
     padding: 0px
 }
-body{
-  width: 980px;
-  background-image: url("background.png");
-  background-repeat: no-repeat;
 
+body {
   font-family: verdana;
+  background-image: url("background.png");
+  width: 100%;
+  background-repeat: no-repeat;
+  color: white;
 }
 
-nav{
-  width: 980px;
-  font-size: 35px;
-  position: absolute;
-  top: 70px;
+nav {
+    font-size: 50px;
+    position: absolute;
+    top: 160px;
+    display: inline;
+    padding-left: 70px;
+    z-index: 0;
 }
 
-nav a{
-  text-decoration: none;
-  color: black;
+nav a {
+    text-decoration: none;
+    color: #4ca1af;
+    z-index: 0;
 }
 
-#home{
-  position: absolute;
-  left: 70px;
+#info {
+    margin-left: 215px;
 }
-#positivity{
-  position: absolute;
-  top: 90px;
-  left: 70px;
-}
-#bullyBasics{
-  position: absolute;
-  right: 70px;
-  top: 90px;
-}
-#report{
-  position: absolute;
-  right: 70px;
+
+#report {
+    margin-left: 190px;
 }
 
 h1{
   position: absolute;
-  font-size:80px;
-  width: 800px;
-  text-align: center;
-  top: 600px;
-  left: 90px;
+  top: 450px;
+  font-size: 60px;
+  width: 70%;
+  margin-left: 10%;
+}
+
+h2{
+  font-size: 40px;
+  padding-bottom: 30px;
+  border-bottom: white 3px solid;
+  margin-bottom: 30px;
 }
 
 #questions{
-  position: relative;
-  width: 800px;
+  width: 80%;
+  margin-left: 10%;
+  position: absolute;
+  top: 600px;
   font-size: 50px;
-  left: 90px;
-  top: 750px;
-  padding-top: 50px;
-  border-top: solid black 4px;
 }
 
 #questions a{
-    text-decoration: none;
-    color: #ff8383;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#questions p{
+  padding-bottom: 25px;
 }
 
 #answers{
-  font-size: 30px;
-  width: 800px;
-  left: 90px;
-  top: 1350px;
+  width: 80%;
+  margin-left: 10%;
   position: absolute;
-  bottom: 80px;
+  top: 1600px;
+  font-size: 40px;
 }
 
-#answers ul{
-  position: relative;
-  padding-left: 50px;
-  font-weight: bold;
+ul{
+  padding-left: 70px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 article{
-  padding-bottom: 50px;
+  margin-bottom: 50px;
+
 }
