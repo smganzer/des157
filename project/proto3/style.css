@@ -11,10 +11,10 @@
 }
 
 body {
-    font-family: verdana;
-    background-image: url("background.png");
-    width: 980px;
-    background-repeat: no-repeat;
+  font-family: verdana;
+  background-image: url("background.png");
+  width: 100%;
+  background-repeat: no-repeat;
 }
 
 nav {
