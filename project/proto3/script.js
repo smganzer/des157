@@ -45,6 +45,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
     closeScreen.addEventListener("click", function(){
       loginScreen.style.opacity = "0";
+      loginScreen.style.zIndex = "0";
     });
 
 
