@@ -11,7 +11,8 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
     // when button is clicked, show login screen
     login.addEventListener("click", function() {
-        loginScreen.style.opacity = "1"
+        loginScreen.style.opacity = "1";
+        loginScreen.style.zIndex = "1";
     });
 
     // variables for login form
