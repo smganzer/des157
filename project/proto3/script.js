@@ -48,6 +48,18 @@ document.addEventListener("DOMContentLoaded", function(event) {
       loginScreen.style.zIndex = "0";
     });
 
+    var report = document.getElementById("report");
+
+    report.addEventListener("click", function(){
+      if (entry == true) {
+        location.href="report/index.html";
+      }
+      else{
+        alert("You must be logged in to use this feature");
+      }
+    });
+
+
 
 
 
