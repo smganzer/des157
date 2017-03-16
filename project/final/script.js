@@ -3,7 +3,6 @@
 document.addEventListener("DOMContentLoaded", function(event) {
     console.log("DOM fully loaded and parsed");
 
-
     // variables to make login pop up
     var loginScreen = document.getElementById("login-screen");
     var login = document.getElementById("login");
