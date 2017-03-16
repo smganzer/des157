@@ -1,0 +1,177 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
+
+/* start all css with a reset */
+
+* {
+    margin: 0px;
+    padding: 0px
+}
+
+body {
+    font-family: verdana;
+    background-image: url("background.png");
+    width: 100%;
+    height: 2000px;
+    background-repeat: no-repeat;
+}
+nav {
+    font-size: 50px;
+    position: absolute;
+    top: 30px;
+    display: inline;
+    padding-left: 20px;
+    z-index: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #4ca1af;
+    z-index: 0;
+}
+
+#home{
+  width: 250px;
+}
+
+#info {
+    width: 250px;
+    margin-left: 77px;
+}
+
+#report {
+  width: 250px;
+    margin-left: 74px;
+}
+
+#login {
+    background-color: white;
+    color: #4ca1af;
+    position: absolute;
+    top: 300px;
+    left: 60px;
+    font-size: 30px;
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+#namespace {
+    position: absolute;
+    top: 300px;
+    left: 80px;
+    font-size: 40px;
+    color: white;
+}
+
+#login-screen {
+    width: 90%;
+    margin: 5%;
+    height: 700px;
+    position: absolute;
+    background-color: white;
+    border-radius: 15px;
+    z-index: 0;
+    top: 400px;
+    color: #4ca1af;
+    opacity: 0;
+}
+
+.close {
+    position: absolute;
+    font-size: 70px;
+    left: 800px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+    margin-top: 40px;
+}
+
+#login-form {
+    font-size: 45px;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 70px;
+}
+
+#forgot {
+    position: absolute;
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+    color: grey;
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+input[type=number] {
+    width: 300px;
+    height: 60px;
+    padding: 4px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 4px solid #4ca1af;
+    color: black;
+    outline: none;
+    font-size: 40px;
+}
+
+input[type=text], [type=password] {
+    width: auto;
+    height: 60px;
+    padding: 4px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 4px solid #4ca1af;
+    color: black;
+    outline: none;
+    font-size: 40px;
+}
+
+input[type=text]:focus {
+    border: 6px solid #4ca1af;
+    font-size: 40px;
+}
+
+input[type=number]:focus {
+    border: 6px solid #4ca1af;
+    font-size: 40px;
+}
+
+input[type=submit], input[type=reset] {
+    background-color: #4ca1af;
+    border-bottom: solid 3px grey;
+    border-right: solid 3px grey;
+    color: white;
+    padding: 10px 22px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 40px;
+    margin-top: 30px;
+}
+
+.show {
+    opacity: 1;
+}
+
+.hide {
+    opacity: 0;
+}
+
+.small{
+  font-size: 35px;
+}
+
+#contact-us{
+  width: 500px;
+  position: absolute;
+  top: 1900px;
+}

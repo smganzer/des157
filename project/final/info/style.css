@@ -1,0 +1,101 @@
+* {
+    margin: 0px;
+    padding: 0px
+}
+
+body {
+  font-family: verdana;
+  background-image: url("background.png");
+  width: 100%;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+nav {
+    font-size: 50px;
+    position: absolute;
+    top: 30px;
+    display: inline;
+    padding-left: 20px;
+    z-index: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #4ca1af;
+    z-index: 0;
+}
+
+#home{
+  width: 250px;
+}
+
+#info {
+    width: 250px;
+    margin-left: 77px;
+}
+
+#report {
+  width: 250px;
+    margin-left: 74px;
+}
+
+h1{
+  position: absolute;
+  top: 450px;
+  font-size: 60px;
+  width: 70%;
+  margin-left: 10%;
+}
+
+h2{
+  font-size: 40px;
+  padding-bottom: 30px;
+  border-bottom: white 3px solid;
+  margin-bottom: 30px;
+}
+
+#questions{
+  width: 80%;
+  margin-left: 10%;
+  position: absolute;
+  top: 600px;
+  font-size: 40px;
+}
+
+a{
+  color: white;
+}
+
+#questions a{
+  color: #4ca1af;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#questions p{
+  padding-bottom: 25px;
+}
+
+#answers{
+  width: 80%;
+  margin-left: 10%;
+  position: absolute;
+  top: 1600px;
+  font-size: 40px;
+}
+
+ul{
+  padding-left: 70px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+article{
+  margin-bottom: 90px;
+}
+
+.back-to-top{
+  font-size: 25px;
+  color: white;
+}
