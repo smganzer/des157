@@ -174,4 +174,25 @@ input[type=submit], input[type=reset] {
   width: 500px;
   position: absolute;
   top: 1900px;
+  left: 240px;
+}
+
+footer {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    width: 80%;
+    top: 2000px;
+    left: 10%;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+footer li {
+    display: inline;
 }

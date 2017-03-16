@@ -3,7 +3,6 @@
 document.addEventListener("DOMContentLoaded", function(event) {
     console.log("DOM fully loaded and parsed");
 
-    alert("Thank you for taking the time to review this project. Please open it in the iPhone 6 viewport of google chrome by right clicking, and selecting inspect. Or view this on an iPhone. My goal in this project is to create a safer school environment for middle school children.");
 
     // variables to make login pop up
     var loginScreen = document.getElementById("login-screen");
