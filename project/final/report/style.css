@@ -145,3 +145,23 @@ p {
 .show {
     display: block;
 }
+
+footer {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    width: 80%;
+    top: 2040px;
+    left: 10%;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+footer li {
+    display: inline;
+}
