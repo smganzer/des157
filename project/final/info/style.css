@@ -99,3 +99,23 @@ article{
   font-size: 25px;
   color: white;
 }
+
+footer {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    width: 80%;
+    top: 8020px;
+    left: 5%;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+footer li {
+    display: inline;
+}
