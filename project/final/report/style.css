@@ -34,7 +34,7 @@ nav a {
     z-index: 0;
 }
 
-#home{
+#report {
   width: 250px;
 }
 
@@ -43,7 +43,7 @@ nav a {
     margin-left: 77px;
 }
 
-#report {
+#home {
   width: 250px;
     margin-left: 74px;
 }
