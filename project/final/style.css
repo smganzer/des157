@@ -173,7 +173,7 @@ input[type=submit], input[type=reset] {
 #contact-us{
   width: 500px;
   position: absolute;
-  top: 1900px;
+  top: 1600px;
   left: 240px;
 }
 
@@ -183,7 +183,7 @@ footer {
     color: white;
     position: absolute;
     width: 80%;
-    top: 2000px;
+    top: 1690px;
     left: 10%;
 }
 
