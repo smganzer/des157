@@ -66,12 +66,12 @@ p{
 }
 
 #blurb{
-  top: 700px;
+  top: 600px;
 }
 
 #thankyou{
   position: absolute;
-  top: 830px;
+  top: 750px;
   color: #4ca1af;
 }
 
@@ -97,7 +97,7 @@ input[type=radio]{
 
 input[type=text] {
     width: 800px;
-    height: 60px;
+    height: 100px;
     padding: 4px;
     margin: 10px 0;
     box-sizing: border-box;
@@ -116,8 +116,8 @@ input[type=text]:focus {
 
 input[type=submit], input[type=reset] {
     background-color: #4ca1af;
-    border-bottom: solid 3px grey;
-    border-right: solid 3px grey;
+    border: white solid 4px;
+    border-radius: 10px;
     color: white;
     padding: 20px 32px;
     text-decoration: none;
@@ -130,8 +130,8 @@ input[type=submit], input[type=reset] {
 }
 
 div{
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 p {
@@ -152,7 +152,7 @@ footer {
     color: white;
     position: absolute;
     width: 80%;
-    top: 2040px;
+    top: 2340px;
     left: 10%;
 }
 
