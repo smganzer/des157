@@ -160,3 +160,23 @@ input[type=submit], input[type=reset] {
 .hide {
     opacity: 0;
 }
+
+footer {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    width: 80%;
+    top: 2340px;
+    left: 10%;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+footer li {
+    display: inline;
+}

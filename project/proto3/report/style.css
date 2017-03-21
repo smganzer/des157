@@ -124,15 +124,17 @@ p {
 }
 
 footer {
-    clear: both;
     text-align: center;
-    font-family: 'Exo 2', sans-serif;
-    color: #EF4145;
-    padding-bottom: 40px;
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    width: 80%;
+    top: 2000px;
+    left: 10%;
 }
 
 footer a {
-    color: #EF4145;
+    color: white;
     text-decoration: none;
     padding: 10px;
 }
@@ -140,6 +142,7 @@ footer a {
 footer li {
     display: inline;
 }
+
 
 .hide {
     display: none;
